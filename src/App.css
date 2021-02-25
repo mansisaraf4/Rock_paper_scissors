@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+  margin-top: 20px;
+  /* display: grid; */
+  /* grid-template-columns: auto auto auto; */
+}
+.sub-container {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.player1, .player2 {
+  padding: 20px;
+}
+/* .player1 {
+  text-align: left;
+  padding: 20px;
+}
+.player2 {
+  text-align: right;
+  padding: 20px;
+} */
+label {
+  text-align: center;
+  /* display: flex; */
+}
+.selected-value {
+  display: flex;
+}
